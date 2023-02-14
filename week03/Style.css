@@ -1,0 +1,25 @@
+body {
+background-color: pink;
+}
+
+p {
+    background-color: blue;
+    border: 20px black solid;
+    padding: 4px;
+    margin: 100px;
+}
+
+.newClass {
+    font-size: 56px;
+}
+
+.epicLink {
+    color: blue;
+    font-family: 'Press Start 2P';
+    font-size: 64px;
+
+}
+
+:visited {  
+    color: blue;
+}

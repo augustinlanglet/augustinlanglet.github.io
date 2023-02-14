@@ -1,0 +1,43 @@
+body {
+    background-image: url(https://media0.giphy.com/media/3o7aDfG5s9mfpa5pHq/giphy.gif?cid=790b7611a9a4fbef624dcb0869b74865a51cfa24ec25009a&rid=giphy.gif&ct=g);
+    background-size: 100%;
+    background-position: 0px -300px;
+    background-attachment: fixed;
+    font-family: "Comic Sans";
+}
+
+div {
+    background-color: rgba(255, 255, 255, 0.8);
+    margin: 10%;
+    margin-left: 50%;
+    border: 20px purple solid;
+    padding: 20px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#title {
+    font-size: 200px;
+    color: white;
+    position: absolute;
+    top: 1000px;
+    /* margin-left: -100px; */
+    width: max-content;
+    height: 2000px;
+    transform: rotate(-90deg);
+}
+
+#bergerPortrait {
+    position: absolute;
+    top: 150px;
+    left: 150px;
+}
+
+#face {
+    font-size: 256px;
+    position: absolute;
+    top: 30px;
+    left: 550px;
+}
