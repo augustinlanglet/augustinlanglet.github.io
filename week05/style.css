@@ -1,0 +1,114 @@
+body {
+    color: #00FF00;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 18px;
+    font-weight: bold;
+    flex-direction: column;
+    /* overflow: hidden; */
+}
+
+.Circles {
+    position: absolute;
+    border: 5px solid black;
+    border-radius: 100%;
+    width: 110vh;
+    height: 110vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+p {
+    background-color: black;
+    padding: 1vw;
+    margin: 1vh;
+    /* width: 30%; */
+}
+
+#pagebg {
+    position: absolute;
+    z-index: -1;
+    scale: 1.05;
+    top: 0%;
+    max-width: 100%;
+    max-height: fit-content;
+}
+
+#page2bg {
+    position: absolute;
+    z-index: -1;
+    left: 25%;
+    top: 25%;
+    scale: 2;
+}
+
+#david {
+    position: absolute;
+    z-index: -1;
+    scale: 60%;
+    left: 24%;
+    top: -20%;
+}
+
+#Page3 {
+    background-color: black;
+}
+
+#Grid {
+    display: flex;
+    flex-flow: wrap row;
+    align-items: center;
+    justify-content: center;
+}
+
+.Boxes {
+    width: 30vw;
+    height: 30vh;
+    border: 5px white solid;
+}
+
+a {
+    position: absolute;
+    background-color: black;
+    padding: 1vw;
+}
+
+#axe {
+    position: absolute;
+    left: 35vw;
+    top: -10vh;
+    scale: 20%;
+}
+
+h1 {
+    background-color: black;
+    padding: 1vh;
+    margin: 1vh;
+    font-size: 18px;
+    position: absolute;
+    top: 70%;
+    left: 15%;
+    transform: rotate(-11deg);
+}
+
+h2 {
+    background-color: black;
+    padding: 1vh;
+    margin: 1vh;
+    font-size: 18px;
+    position: absolute;
+    top: 35%;
+    left: 63%;
+    transform: rotate(-11deg);
+}
+
+#over {
+    background-color: black;
+    padding: 1vh;
+    margin: 1vh;
+    font-size: 18px;
+    position: absolute;
+    top: 65%;
+    left: 83%;
+    transform: rotate(-11deg);
+}
