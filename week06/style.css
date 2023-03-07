@@ -1,0 +1,74 @@
+body {
+    background-color: black;
+    color: yellow;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    font-style: italic;
+    word-spacing: 0.5rem;
+    letter-spacing: 0.2rem;
+    margin: 0;
+    display: flex;
+    flex-flow: column;
+    border: 2px solid white;
+}
+
+.scroller {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(3, 1fr);
+    overflow: hidden;
+    width: 100%;
+}
+
+.ScrollContainers {
+    background-color: red; 
+    border-bottom: 2px solid white;
+    border-top: 2px solid white;
+}
+
+p {
+    transform: translateX(110%);
+    animation: scroll 10s linear infinite ; 
+    margin: 0.5rem;
+}
+
+@keyframes scroll{
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.button {
+    margin: 40vh;
+    align-self: center;
+    justify-self: baseline;
+}
+
+button {
+    color: yellow;
+    font-family: Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: red;
+    border-color: brown;
+    border-radius: 10px;
+    box-shadow: 0px 0px 30px 20px rgba(255,0,0,0.3);
+    padding: 1rem;
+    width: minmax(100px, 20%);
+
+    transition: transform 1s ease-in;
+}
+
+button:hover {
+    transform: translateY(-100vh);
+}
+
+h1 {
+    font-size: 1rem;
+    text-align: center;
+    z-index: -1;
+    position: relative;
+    bottom: 6vh;
+}
