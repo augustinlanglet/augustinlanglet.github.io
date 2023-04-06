@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://media.tenor.com/O5as23V0QaMAAAAC/baby-sun-teletubbies.gif);
+    background-size: 50vw;
+    height: 100vh;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+main{
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+    padding-top: 25vh;
+    text-shadow: 1px 1px 0px pink, 2px 2px 0px greenyellow, 3px 3px 0px yellow;
+
+}
+
+.pages {
+    position: relative;
+    right: 20px;
+}
+
+h1 {
+    font-size: 52px;
+}
+
+:visited {
+    color: black;
+}
+
+a:hover{
+    color: white;
+}

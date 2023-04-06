@@ -1,0 +1,85 @@
+body {
+    background-color: red;
+    font-family: "Chicago", sans-serif;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    margin: 100px;
+    margin-top: 5vh;
+}
+
+.col img {
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+}
+
+.heading {
+    text-align: center;
+    font-size: 92px;
+    margin-top: 5vh;
+    text-shadow: 2px 2px 1px yellow;
+    background-color: yellow;
+    padding: 0.1em;
+    width: fit-content;
+}
+
+@font-face {
+    font-family: "Chicago";
+    src: url("ChiKareGo.ttf") format("truetype");
+}
+
+@media (max-width: 1080px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+#history_page {
+    background-image: url("images/bw_wave.png");
+    background-attachment: fixed;
+    background-size: 10%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#wave_img {
+    position: absolute;
+    left: 55vw;
+    top: 10vh;
+}
+
+.text {
+    background-color: yellow;
+    margin-bottom: 20px;
+    padding: 5px 20px;
+    font-size: 24px;
+}
+
+.scrolling_body {
+    height: 500px;
+    margin: 80px 42% 100px 80px;
+    background-color: black;
+    padding: 10px;
+    overflow: scroll;
+}
+
+.blink {
+    animation: blink steps(1) 1s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+}
