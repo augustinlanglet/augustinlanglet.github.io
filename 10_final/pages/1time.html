@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="../style/general_style.css" rel="stylesheet">
+    <link href="../style/1style.css" rel="stylesheet">
+    <title>TIME</title>
+</head>
+
+<body>
+    <h1 id="racetime">1:33:29</h1>
+    <div class="quick_fade">
+        <h2 id="pace">4:26/km</h2>
+        <h2 id="bpm">168bpm</h2>
+        <div id="grid_container">
+            <div id="grid_pace">
+                <h3>Pace Analysis</h3>
+                <div class="chart_container">
+                    <canvas id="paceChart"></canvas>
+                </div>
+            </div>
+            <div id="grid_hr">
+                <h3>HR Zones</h3>
+                <div class="chart_container">
+                    <canvas id="hrChart"></canvas>
+                </div>
+            </div>
+        </div>
+        
+        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+        <script src="../charts/pace_chart.js"></script>
+        <script src="../charts/hr_chart.js"></script>
+        <!-- chart.js website tutorial for initial setup -->
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,76 @@
+#racetime {
+    position: relative;
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    font-size: 34vw;
+    margin: 200px 0px;
+    letter-spacing: -0.03em;
+    opacity: 0.8;
+}
+
+body {
+    background-color: rgb(41, 0, 0);
+    animation: heartbeat 4s ease-in-out infinite;
+}
+
+#page {
+    animation: fade_in 500ms ease-in;
+}
+
+h2 {
+    border: 2px white solid;
+    padding-top: 10px;
+}
+
+#bpm {
+    text-align: right;
+}
+
+#grid_container {
+    display: grid;
+    grid-template-columns: 50% 50%;
+}
+
+#grid_pace {
+    grid-column: 1;
+    padding: 5px;
+}
+
+#grid_hr {
+    grid-column: 2;
+    padding: 5px
+}
+
+.chart_container {
+    margin: 10px;
+    border: none;
+    height: 80vh;
+}
+
+@keyframes fade_in{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes heartbeat {
+    0% {
+      background-color: rgb(41, 0, 0);
+    }
+    /* 40% {
+        background-color: rgb(150, 0, 0);
+    } */
+    50% {
+      background-color: rgb(135, 0, 0);
+    }
+    /* 60% {
+        background-color: rgb(150, 0, 0);
+    } */
+    100% {
+        background-color: rgb(41, 0, 0);
+    }
+}

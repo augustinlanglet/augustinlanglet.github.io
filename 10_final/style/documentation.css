@@ -1,0 +1,17 @@
+a {
+    color: aqua;
+    text-decoration: underline;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+#image_container {
+    display: flex;
+    overflow: scroll;
+}
+
+#image_container img {
+    width: 30%;
+}

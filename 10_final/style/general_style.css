@@ -1,0 +1,88 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Millimetre, Helvetica, sans-serif;
+    font-weight: lighter;
+}
+
+@font-face {
+    font-family: Millimetre;
+    src: url("fonts/Millimetre-Regular_web.ttf");
+}
+
+@font-face {
+    font-family: Millimetre;
+    font-weight: bold;
+    src: url("fonts/Millimetre-Bold_web.ttf");
+}
+
+@font-face {
+    font-family: Millimetre;
+    font-weight: bolder;
+    src: url("fonts/Millimetre-Extrablack_web.ttf");
+}
+
+@font-face {
+    font-family: Millimetre;
+    font-weight: lighter;
+    src: url("fonts/Millimetre-Light_web.ttf");
+}
+
+div {
+    border: 2px white solid;
+}
+
+p {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 256px;
+    line-height: 0px;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+}
+
+h2 {
+    font-size: 200px;
+    line-height: 180px;
+    margin: 0px;
+}
+
+h3 {
+    font-size: 96px;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+@keyframes fade_in{
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes float_in{
+    from {
+        opacity: 0;
+        transform: translateY(30vh);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.quick_fade {
+    animation: fade_in 500ms ease-in;
+}
+
+.float_in {
+    animation: float_in 500ms ease-in-out;
+}

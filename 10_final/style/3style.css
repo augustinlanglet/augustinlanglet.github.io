@@ -1,0 +1,117 @@
+body {
+    overflow: hidden;
+    margin: 0px;
+}
+
+#page {
+    height: 99.5vh;
+    margin: 0px;
+    background-image: url('../images/map.png');
+    background-size: cover;
+    background-position: center center;
+}
+
+h2 {
+    margin-left: 24px;
+    font-size: 96px;
+}
+
+.pin {
+    width: 28px;
+    position: absolute;
+}
+
+.pulse {
+    animation: pulse 3s ease-in-out infinite;
+}
+
+.pin:hover {
+    animation: none;
+    box-shadow: 0px 0px 20px white;
+}
+
+@keyframes pulse{
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.map_image {
+    width: 25vw;
+    height: 35vh;
+    padding: 5px;
+    display: none;
+    position: absolute;
+}
+
+.map_image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+#img01 {
+    top: 25vh;
+    left: 68vw;
+}
+
+#img02 {
+    top: 5vh;
+    left: 18vw;
+}
+
+#img03 {
+    top: 20vh;
+    left: 3vw;
+}
+
+#img04 {
+    top: 40vh;
+    left: 10vw;
+}
+
+#img05 {
+    top: 55vh;
+    left: 20vw;
+}
+
+#img06 {
+    top: 52vh;
+    left: 70vw;
+}
+
+#pin1 {
+    top: 19vh;
+    left: 61vw;
+}
+
+#pin2 {
+    top: 25vh;
+    left: 56vw;
+}
+
+#pin3 {
+    top: 42vh;
+    left: 54vw;
+}
+
+#pin4 {
+    top: 48vh;
+    left: 46vw;
+}
+
+#pin5 {
+    top: 53vh;
+    left: 50vw;
+}
+
+#pin6 {
+    top: 76vh;
+    left: 53vw;
+}
