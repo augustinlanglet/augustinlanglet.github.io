@@ -7,25 +7,25 @@ body {
 
 @font-face {
     font-family: Millimetre;
-    src: url("fonts/Millimetre-Regular_web.ttf");
+    src: url("../fonts/Millimetre-Regular_web.ttf");
 }
 
 @font-face {
     font-family: Millimetre;
     font-weight: bold;
-    src: url("fonts/Millimetre-Bold_web.ttf");
+    src: url("../fonts/Millimetre-Bold_web.ttf");
 }
 
 @font-face {
     font-family: Millimetre;
     font-weight: bolder;
-    src: url("fonts/Millimetre-Extrablack_web.ttf");
+    src: url("../fonts/Millimetre-Extrablack_web.ttf");
 }
 
 @font-face {
     font-family: Millimetre;
     font-weight: lighter;
-    src: url("fonts/Millimetre-Light_web.ttf");
+    src: url("../fonts/Millimetre-Light_web.ttf");
 }
 
 div {
