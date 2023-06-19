@@ -1,4 +1,4 @@
-var pins = document.getElementsByClassName('pin')
+var pins = document.getElementsByClassName('pin');
 
 for (var i = 0; i < pins.length; i++) {
     pins[i].addEventListener("click", function (event) {
