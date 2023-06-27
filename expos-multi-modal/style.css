@@ -8,12 +8,20 @@
     object-fit: cover;
 }
 
-body {
+#main-body {
     overflow: hidden;
     width: 100vw;
     height: 100vh;
     background-color: black;
     font-family: Helvetica, Arial, sans-serif;
+    color: white;
+}
+
+#essay-body {
+    background-color: black;
+    margin: 5vw;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 52px;
     color: white;
 }
 

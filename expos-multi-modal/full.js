@@ -6,16 +6,18 @@ function startSite() {
     const video = document.querySelector('video');
     const madeIn = document.getElementById('made-in');
     const page = document.getElementById('page');
+    // const ytvideo = document.getElementById('myvideo');
+
 
     page.style.display = 'block';
     startButton.style.display = 'none';
     audio.play()
-    video.play()
+    // video.play()
     designed.classList.add('animation')
 
     info.addEventListener("click", function () {
         var computedStyle = getComputedStyle(overlay); // otherwise js doesn't know the inital state on first click
-    
+
         if (computedStyle.display === 'none') {
             overlay.style.display = 'block';
         } else {
@@ -45,6 +47,17 @@ function startSite() {
             .catch(error => console.error(error));
     }, 45000); //45000
 }
+
+// function onYouTubeIframeAPIReady() {
+//               // Create the YouTube player
+//               var player = new YT.Player('myvideo', {
+//                 videoId: 'DBJm_HFufeU',
+//                 playerVars: {
+//                   autoplay: 1, // Autoplay the video
+//                   controls: 0, // Hide player controls
+//                 },
+//               });
+//             }
 
 const startButton = document.getElementById('start-button');
 startButton.addEventListener('click', startSite);
