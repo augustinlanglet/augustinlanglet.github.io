@@ -3,11 +3,11 @@ function startSite() {
     const overlay = document.getElementById('overlay');
     const designed = document.getElementById('designed');
     const audio = document.querySelector('audio');
-    const video = document.querySelector('video');
     const madeIn = document.getElementById('made-in');
     const page = document.getElementById('page');
-    // const ytvideo = document.getElementById('myvideo');
+    const ytvideo = document.getElementById('video');
 
+    ytvideo.src = "https://www.youtube.com/embed/KXLBAlx5AHo?autoplay=1&mute=1";
 
     page.style.display = 'block';
     startButton.style.display = 'none';
@@ -42,7 +42,7 @@ function startSite() {
                         i = 0
                         res = 'Made In '
                     };
-                }, 4000);
+                }, 4000); //4000
             })
             .catch(error => console.error(error));
     }, 45000); //45000
