@@ -4,24 +4,29 @@ body{
     height: 100vh;
     margin-top: auto;
     margin-bottom: auto;
+    overflow: hidden;
 }
 
 main{
     font-family: 'Comic Neue', sans-serif;
     font-weight: bold;
     font-size: 36px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    text-align: center;
+    padding-top: 10vh;
     height: 100vh;
-    padding-top: 25vh;
     text-shadow: 1px 1px 0px pink, 2px 2px 0px greenyellow, 3px 3px 0px yellow;
-
 }
 
 .pages {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     position: relative;
     right: 20px;
+}
+
+.links {
+    font-size: 24px;
 }
 
 h1 {
