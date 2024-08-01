@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url("https://media1.tenor.com/m/XOKm8hiDW3UAAAAC/catshakira-cat.gif");
+    background-position: top center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr; /* 3 columns: left, center, right */
+    gap: 10px; /* Optional: space between columns */
+    width: 100%;
+    max-width: 1200px; /* Optional: max width for the grid */
+}
+
+.grid-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.grid-item img {
+    max-width: 100%;
+    width: 90%;
+}

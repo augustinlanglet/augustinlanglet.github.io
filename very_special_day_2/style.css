@@ -1,0 +1,20 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url('/very_special_day_2/img/index_bg.JPG');
+    background-position: bottom center;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    font-family: 'Comic Neue', sans-serif;
+    font-weight: bold;
+    font-size: 36px;
+    text-align: center;
+    height: 100vh;
+    color: yellow;
+    text-shadow: 1px 1px 0px blue, 2px 2px 0px red, 3px 3px 0px green;
+}
+
+:visited {
+    color: yellow;
+}
